@@ -1,17 +1,16 @@
-import React from "react";
-import Weather from "./Weather";
-import './App.css';
-
-export default function App() {
-  return (
-    <div className="App">
-      <div className="container">
-      <Weather defaultCity="Greece" />
-      <footer>
-        This project was coded by <a href="https://app.netlify.com/teams/mavooma/sites" target="_blank" rel="noreferrer">Vuyelwa Mavuma</a> and is open-sourced on {" "} <a href="https://github.com/Mavooma/weather-react-app" target="_blank" rel="noreferrer">GitHub</a>{" "}and <a href="https://weatherappreactmavooma.netlify.app/" target="_blank" rel="noopener noreferrer">hosted on Netlify</a>
-      </footer>
-      </div>
-    </div>
-  );
-}
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Weather application" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React Weather App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
