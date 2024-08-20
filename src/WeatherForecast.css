@@ -1,13 +1,24 @@
-.WeatherForecast {
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .WeatherForecast-temperatures {
-    color:#135ec1;
-   }
+/* src/components/WeatherForecastDay.css */
+.WeatherForecastDay {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
 
-  .WeatherForecast-temperature-min {
-    opacity: 0.6;
-    margin-left: 5px;
-  }
+.WeatherForecast-day {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.WeatherForecast-temperatures {
+  display: flex;
+  justify-content: space-around;
+}
+
+.WeatherForecast-temperature-max,
+.WeatherForecast-temperature-min {
+  font-size: 1rem;
+  margin: 0 5px;
+}

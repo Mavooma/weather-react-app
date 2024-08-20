@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/614/original/clouds.jpg?1720649525");
+    background: whitesmoke;
     font-family: "Roboto", sans-serif;
   }
   
@@ -15,7 +15,7 @@ body {
   .Weather {
     background: #CECED0;
     max-width: 800px;
-    margin: 45px auto;
+    margin: 45px auto; 
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
     border-radius: 16px;
     padding: 30px;
